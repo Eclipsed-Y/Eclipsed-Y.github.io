@@ -20,5 +20,12 @@
       <guid>http://localhost:1313/blogs/first-blog/</guid>
       <description>Desc Text.</description>
     </item>
+    <item>
+      <title>VMWare Linux 虚拟机配置永久共享文件夹</title>
+      <link>http://localhost:1313/blogs/vmwareshareddir/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/vmwareshareddir/</guid>
+      <description>Desc Text.</description>
+    </item>
   </channel>
 </rss>
