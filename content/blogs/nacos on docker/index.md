@@ -466,6 +466,8 @@ docker  run \
 nacos/nacos-server:v2.3.0
 ```
 
+初始用户名密码均为nacos
+
 访问ip:8848/nacos
 
 微服务配置ip:8848，不需要/nacos
