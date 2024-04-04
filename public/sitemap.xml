@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blogs/rabbitmq-on-docker/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/redis-on-docker/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
