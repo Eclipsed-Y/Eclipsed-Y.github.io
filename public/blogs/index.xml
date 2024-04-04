@@ -11,20 +11,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker安装redis</title>
+      <link>http://localhost:1313/blogs/redis-on-docker/</link>
+      <pubDate>Wed, 03 Apr 2024 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/redis-on-docker/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
+      <title>Ubuntu使用docker安装mysql和nacos，服务注册踩坑</title>
+      <link>http://localhost:1313/blogs/nacos-on-docker/</link>
+      <pubDate>Wed, 03 Apr 2024 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/nacos-on-docker/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
+      <title>VMWare Linux 虚拟机配置永久共享文件夹</title>
+      <link>http://localhost:1313/blogs/vmware-shared/</link>
+      <pubDate>Wed, 03 Apr 2024 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/vmware-shared/</guid>
+      <description>Desc Text.</description>
+    </item>
     <item>
       <title>My 1st post</title>
       <link>http://localhost:1313/blogs/first-blog/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>http://localhost:1313/blogs/first-blog/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
-      <title>VMWare Linux 虚拟机配置永久共享文件夹</title>
-      <link>http://localhost:1313/blogs/vmwareshareddir/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/vmwareshareddir/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>
