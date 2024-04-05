@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2020-09-14T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2020-09-14T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
-    <lastmod>2020-09-14T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2020-09-14T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/seata-catch/</loc>
-    <lastmod>2020-09-14T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/seata-on-docker/</loc>
-    <lastmod>2020-09-13T11:30:03+00:00</lastmod>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/rabbitmq-on-docker/</loc>
-    <lastmod>2020-09-12T11:30:03+00:00</lastmod>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/redis-on-docker/</loc>
-    <lastmod>2020-09-11T11:30:03+00:00</lastmod>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/first/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/nacos-on-docker/</loc>
-    <lastmod>2020-09-10T11:30:03+00:00</lastmod>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/vmware-shared/</loc>
-    <lastmod>2020-09-09T11:30:03+00:00</lastmod>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/seata-catch/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/seata-on-docker/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
