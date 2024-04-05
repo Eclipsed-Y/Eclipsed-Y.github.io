@@ -21,14 +21,14 @@
       <description>Desc Text.</description>
     </item>
     <item>
-      <title>docker安装redis</title>
+      <title>Docker安装Redis</title>
       <link>http://localhost:1313/blogs/redis-on-docker/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>http://localhost:1313/blogs/redis-on-docker/</guid>
       <description>Desc Text.</description>
     </item>
     <item>
-      <title>Ubuntu使用docker安装mysql和nacos，服务注册踩坑</title>
+      <title>Ubuntu使用Docker安装Mysql和Nacos，服务注册踩坑</title>
       <link>http://localhost:1313/blogs/nacos-on-docker/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>http://localhost:1313/blogs/nacos-on-docker/</guid>
