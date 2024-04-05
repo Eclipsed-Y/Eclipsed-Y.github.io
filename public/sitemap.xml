@@ -17,9 +17,6 @@
     <loc>http://localhost:1313/tags/first/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/first-blog/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
@@ -27,6 +24,9 @@
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/vmware-shared/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/seata-on-docker/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>

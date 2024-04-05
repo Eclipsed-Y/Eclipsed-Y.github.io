@@ -28,13 +28,6 @@
       <description>Desc Text.</description>
     </item>
     <item>
-      <title>My 1st post</title>
-      <link>http://localhost:1313/blogs/first-blog/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/first-blog/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
       <title>Ubuntu使用docker安装mysql和nacos，服务注册踩坑</title>
       <link>http://localhost:1313/blogs/nacos-on-docker/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
@@ -46,6 +39,13 @@
       <link>http://localhost:1313/blogs/vmware-shared/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>http://localhost:1313/blogs/vmware-shared/</guid>
+      <description>Desc Text.</description>
+    </item>
+    <item>
+      <title>利用Docker安装Seata</title>
+      <link>http://localhost:1313/blogs/seata-on-docker/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/seata-on-docker/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>

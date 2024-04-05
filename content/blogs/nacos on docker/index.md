@@ -462,7 +462,7 @@ docker  run \
 -e MODE=standalone \
 -e PREFER_HOST_MODE=hostname \
 -v /home/${username}/docker/nacos/logs:/home/nacos/logs \
--v /home/${username}/docker/nacos/init.d/custom.properties:/home/nacos/init.d/custom.properties \
+-v /home/${username}/docker/nacos/init.d:/home/nacos/init.d \
 nacos/nacos-server:v2.3.0
 ```
 
