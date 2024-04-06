@@ -127,6 +127,8 @@ public RedisCacheConfiguration entryTtl(Duration ttl) {
 
 那从entryTtl方法出发，发现其作用是对当前类RedisCacheConfiguration的ttl属性赋值，那我是不是可以直接继承RedisCacheConfiguration类，然后改写这个方法，每次为ttl赋值一个随机数呢？
 
+### RedisCacheConfiguration类
+
 ```java
 public class RedisCacheConfiguration {
     private final Duration ttl;
@@ -153,6 +155,8 @@ public class RedisCacheConfiguration {
 
 那换个思路，我什么时候需要用到ttl？
 
+### RedisCacheManager类
+
 ```java
 public class RedisCacheManager extends AbstractTransactionSupportingCacheManager {
     private final RedisCacheWriter cacheWriter;
@@ -168,6 +172,8 @@ public class RedisCacheManager extends AbstractTransactionSupportingCacheManager
 ```
 
 RedisCacheManager类初始化需要传入RedisCacheConfiguration配置，而在其createRedisCache方法中用到了这个配置，然后创建了一个RedisCache类。
+
+### RedisCache类
 
 ```java
 public class RedisCache extends AbstractValueAdaptingCache {
@@ -211,6 +217,8 @@ public class RedisCache extends AbstractValueAdaptingCache {
 进入RedisCache，可以发现其put和putIfAbsent两个方法使用了配置的getTtl方法，用于写入缓存的过期时间。
 
 并且RedisCache的构造方法并没有私有化，因此可以继承，然后重写put和putIfAbsent两个方法。
+
+### 继承RedisCache类
 
 ```java
 public class RandomTtlRedisCache extends RedisCache {
@@ -271,6 +279,8 @@ public class RandomTtlRedisCache extends RedisCache {
 
 同理，可以创建一个RandomTtlRedisCacheManager类继承RedisCacheManager。
 
+### 继承RedisCacheManager类
+
 ```java
 public class RandomTtlRedisCacheManager extends RedisCacheManager{
     private final RedisCacheWriter cacheWriter;
@@ -294,6 +304,8 @@ public class RandomTtlRedisCacheManager extends RedisCacheManager{
 ```
 
 至此，基本完成修改，只需要创建一个RandomTtlRedisCacheManager的Bean对象即可。
+
+### 创建Bean对象
 
 ```java
 @Bean
