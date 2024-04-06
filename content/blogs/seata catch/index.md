@@ -1,6 +1,6 @@
 ---
 title: "全局异常捕获器令Seata事务无法回滚的解决方案"
-date: 2020-09-15T11:30:03+00:00
+date: 2024-04-04T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
